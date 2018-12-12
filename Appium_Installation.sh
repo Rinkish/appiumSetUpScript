@@ -1,6 +1,6 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew uninstall node
 brew uninstall --force node
+brew uninstall node
 brew install node
 sudo gem uninstall xcpretty
 npm uninstall -g ios-deploy
