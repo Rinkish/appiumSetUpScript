@@ -1,6 +1,6 @@
 Please find below steps that will help you in case you have to downgrade your xcode
  
-1.       Install Xcode (get it from https://developer.apple.com/xcode/) if you don't have it yet.
+1.       Install Xcode (get it from https://developer.apple.com/download/more/) if you don't have it yet.
 2.       Accept the Terms and Conditions.
 3.       Ensure Xcode app is in the /Applications directory (NOT /Users/{user}/Applications). (Important)
 4.       Point xcode-select to the Xcode app Developer directory using the following command:
