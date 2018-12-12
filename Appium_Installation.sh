@@ -1,10 +1,12 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew uninstall node
+brew uninstall --force node
 brew install node
 sudo gem uninstall xcpretty
 npm uninstall -g ios-deploy
 brew uninstall carthage
 brew uninstall ideviceinstaller
+brew uninstall --ignore-dependencies libimobiledevice
 brew uninstall --force libimobiledevice
 npm uninstall wd
 npm uninstall -g appium
