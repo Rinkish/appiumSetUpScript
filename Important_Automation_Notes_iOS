@@ -14,6 +14,12 @@ Find Bundle id of all the applications installed on the connected device
 
 1. ideviceinstaller -U `idevice_id -l` -l
 
+If you face lockDown Error
+
+Refer - https://github.com/libimobiledevice/ideviceinstaller/issues/48
+
+
+
 Json Format for Appium Desktop
 
 {
