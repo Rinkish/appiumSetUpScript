@@ -5,3 +5,23 @@ Please find below steps that will help you in case you have to downgrade your xc
 3.       Ensure Xcode app is in the /Applications directory (NOT /Users/{user}/Applications). (Important)
 4.       Point xcode-select to the Xcode app Developer directory using the following command:
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+
+Command to find udid of connected Device
+
+idevice_id -l
+
+Find Bundle id of all the applications installed on the connected device
+
+1. ideviceinstaller -U `idevice_id -l` -l
+
+Json Format for Appium Desktop
+
+{
+ "platformName": "iOS",
+ "deviceName": "iPhone 8",
+ "platformVersion": "11.2",
+ "bundleId": "ENTER HERE",
+ "udid": " ENTER HERE",
+ "useNewWDA": "true"
+}
+
