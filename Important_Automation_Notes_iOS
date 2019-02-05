@@ -16,9 +16,19 @@ Find Bundle id of all the applications installed on the connected device
 
 If you face lockDown Error
 
-Refer - https://github.com/libimobiledevice/ideviceinstaller/issues/48
+Refer - https://github.com/appium/appium/issues/9364
+		
+		OR Run Below commands
 
-
+brew uninstall ideviceinstaller
+brew uninstall libimobiledevice
+brew uninstall usbmuxd
+brew install usbmuxd --HEAD
+brew install --HEAD libimobiledevice
+brew unlink libimobiledevice && brew link libimobiledevice
+brew install --HEAD ideviceinstaller
+brew unlink ideviceinstaller && brew link ideviceinstaller 
+sudo chmod -R 777 /var/db/lockdown
 
 Json Format for Appium Desktop
 
